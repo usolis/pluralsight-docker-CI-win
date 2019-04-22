@@ -1,15 +1,14 @@
 {
-  "name": "hellopluralsighters",
-  "private": true,
-  "version": "0.0.1",
-  "description": "Demo app for Pluralsight Docker CI course",
-  "main": "app.js",
-  "author": "Nigel Poulton <nigelpoulton@hotmail.com>",
-  "license": "Will be full of vulnerabilities!",  
-  "dependencies": {
-    "express": "4.16.3",
-    "jade": "4.5.0"
-	"mocha": "4.0.1"
-	"supertest": "4.0.2"
-  }
+    "name": "hello-pluralsighters",
+    "version": "0.0.1",
+    "private": true,
+    "description": "Demo app for Pluralsight Docker CI course",
+    "main": "app.js",
+	"author": "Ulises Solis",
+    "dependencies": {
+        "express": "4.16.3",
+        "jade": "4.5.0",
+        "mocha": "4.0.1",
+        "supertest": "4.0.2"        
+    }
 }
