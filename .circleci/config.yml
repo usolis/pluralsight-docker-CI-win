@@ -39,5 +39,5 @@ jobs:
       - deploy: 
             dockerhub:
                 branch: master
-                commands:
+                command: |
                    $DOCKER_HUB_TRIGGER 
